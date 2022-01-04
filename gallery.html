@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title and favicon -->
+    <title>Events Gallery</title>
+    <link rel="icon" type="image/x-icon" href="/images/zStudents-CU Main Logo-modified.png">
+    <!-- font-style -->
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <!-- Style-sheets -->
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <!-- font-awesome hamburger and javascript -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav>
+        <div class="logo">
+            <img src="/images/zStudents-CU Main Logo-modified.png" alt="logo">
+            <h2>zStudents-CU</h2>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html#about-us">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="index.html#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="logo-comp">
+            <img id="ibm" src="/images/ibm3.png" alt="ibm" style="width:100px;height: 30px;">
+            <img src="/images/CULogo.png" alt="chandigarh university">
+        </div>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <!-- Event Photos -->
+    <section class="event-gallery">
+        <div class="event-heading">
+            <h1>Our Events</h1>
+            <hr>
+        </div>
+        <div class="row">
+            <img src="/eventGallery/3rd.jpg"><img src="/eventGallery/4th.png"><img src="/eventGallery/5th.png">
+        </div>
+        <div class="row">
+            <img src="/eventGallery/1st.jpeg"><img src="/eventGallery/2nd.jpg"><img src="/eventGallery/6th.png">
+        </div>
+        <div class="row">
+            <img src="/eventGallery/7th-2.png" alt="">
+            <img src="/eventGallery/8th-2.jpg" alt="">
+            <img src="/eventGallery/7th-2.png" alt="">
+        </div>
+        <div class="row">
+            <img src="/eventGallery/10th.png" alt="">
+            <img src="/eventGallery/11th.jpg" alt=""><img src="/eventGallery/12th.jpeg" alt="">
+        </div>
+        <div class="row">
+            <img src="/eventGallery/13th.jpg" alt="">
+            <img src="/eventGallery/14th.png" alt=""><img src="/eventGallery/15th.jpeg" alt="">
+        </div>
+        <!-- Contact us and copyright -->
+        <footer>
+            <section class="contact" id="contactus">
+                <h3>Contact Us</h3>
+                <div class="social">
+                    <div><a href="https://www.linkedin.com/company/zstudentscu/mycompany/" target="_blank"><img
+                                src="/images/linkedin.png" alt=""></a></div>
+                    <div><a href="https://www.instagram.com/zstudents_cu/" target="_blank"><img src="/images/instagram.png"
+                                alt=""></a>
+                    </div>
+                    <div><a href="https://twitter.com/zStudentsCU" target="_blank"><img src="/images/twitter.png"
+                                alt=""></a></div>
+                    <div><a href="https://www.youtube.com/channel/UCx8513UOHQ6KymTQnqHtC6w" target="_blank"><img
+                                src="/images/youtube.jpg" alt=""></a></div>
+                </div>
+            </section>
+            <div class="copyright">
+                zStudents-CU, All Rights Reserved &copy;
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito:ital@1&family=Satisfy&family=Waterfall&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.team-container{
+    margin-top: 90px;
+    background-color:#7fcceb;
+    background-image: url('/images/team-back-pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.team-container h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 30px;
+}
+@media (max-width:500px){
+    .team-container h1{
+        font-size:40px;
+    }
+}
+.team-container hr{
+    width:100px;
+    margin:0 auto;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main-content img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    }
+    .main-content img:hover{
+        transform:scale(1.04)
+    }
+.main-content h3,h4{
+    text-align: center;
+
+}
+.main-content h3{
+  
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.main-content h4{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.profiles{
+    margin:50px 0;
+}

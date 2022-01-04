@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title And favicon -->
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/images/zStudents-CU Main Logo-modified.png">
+    <!-- fonts-styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <!-- style Sheets -->
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- fonts-awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- java-script for hamburger -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- nav bar begins -->
+    <nav>
+        <div class="logo">
+            <img src="/images/zStudents-CU Main Logo-modified.png" alt="logo">
+            <h2>zStudents-CU</h2>
+        </div>
+        <div class="nav-bar">
+            <ul id="ul-ham">
+                <li><a href="#" class="active nav-bar-link">Home</a></li>
+                <li><a href="index.html#about-us" class="nav-bar-link">About Us</a></li>
+                <li><a href="team.html" class="nav-bar-link">Team</a></li>
+                <li><a href="#contactus" class="nav-bar-link">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="logo-comp">
+            <img id="ibm" src="/images/ibm3.png" alt="ibm" style="width:100px;height: 30px;">
+            <img src="/images/CULogo.png" alt="chandigarh university">
+        </div>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <!-- slider -->
+    <div class="slider">
+        <h1>Welcome To zStudents-CU</h1>
+        <div>Powered by IBM Z
+            <br>
+            Chandigarh University
+        </div>
+    </div>
+    <!-- Event Details Section -->
+    <div class="event-list">
+        <h1>Events Details</h1>
+        <div class="event-row">
+            <div class="date">
+                <h3>21 OCT</h3>
+            </div>
+            <div class="event-title">
+                <h3>Introduction To Enterprise</h3> <span>Computing</span>
+            </div>
+            <div class="event-button">
+                <a href="https://youtu.be/QPSt3XO00z8" target="_blank">WATCH</a>
+            </div>
+        </div>
+
+        <div class="event-row">
+            <div class="date">
+                <h3>29 OCT</h3>
+            </div>
+            <div class="event-title">
+                <h3>Kick Start Your Tech Career</h3> <span>With IBM Z</span>
+            </div>
+            <div class="event-button">
+                <a href="https://youtu.be/9ja3tpR9ddY" target="_blank">WATCH</a>
+            </div>
+        </div>
+
+        <div class="event-row">
+            <div class="date">
+                <h3>13 NOV</h3>
+            </div>
+            <div class="event-title">
+                <h3>IBM Z Xplore</h3>
+            </div>
+            <div class="event-button">
+                <a href="https://youtu.be/m3OVsLMPFg0" target="_blank">WATCH</a>
+            </div>
+        </div>
+
+        <div class="event-row">
+            <div class="date">
+                <h3>15 NOV</h3>
+            </div>
+            <div class="event-title">
+                <h3>Bizz with IBM Z CU</h3>
+            </div>
+            <div class="event-button">
+                <a href="#" title="Offline Event" target="_blank">WATCH</a>
+            </div>
+        </div>
+        <!-- <div class="load-more">
+            <a href="event.html">Load More</a>
+        </div> -->
+        <a href="event.html" class="show-more">
+            <div>Show More</div>
+        </a>
+    </div>
+    <!-- Carousel-2 of Main Frame Computer -->
+    <section>
+        <div class="carousel">
+            <img src="/images/carousel2.jpg">
+        </div>
+    </section>
+    <!-- founders section -->
+    <section class="founders">
+        <div class="wrapper">
+            <h1>Meet The Founders</h1>
+
+            <div class="main-team">
+                <div class="main-member">
+                    <div class="team_img">
+                        <img src="/images/komal.jpeg">
+                    </div>
+                    <h3>Komal Mann</h3>
+                    <p class="role"> Founder and President</p>
+                    <p class="bio">Komal is final-year Computer Science Engineering Student who loves exploring
+                        different technologies. She is hugely passionate about demystifying "Computer Science" to people
+                        with little or no exposure to the powerful world of TECH. With a knack for Public Speaking, she
+                        organises & hosts student-oriented global events to engage with Industry experts, and connect
+                        them to curious learners around the world.</p>
+                </div>
+                <div class="main-member">
+                    <div class="team_img">
+                        <img src="/images/rishabh.png">
+                    </div>
+                    <h3>Rishabh Raj</h3>
+                    <p class="role">Lead Advisor</p>
+                    <p class="bio">Rishabh raj, currently in final year, filed 28+ patents, chairperson @IEEE Chandigarh
+                        University student branch, Lead @ Events CSE, President @ innovator's hub, Campus Representative
+                        @ Meta developer's Chandigarh, delivered 150+ sessions across india, Lead advisor @ z Students
+                        powered by IBM Z and CU.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- IBM Z AMBASSADOR -->
+    <section class="about">
+        <div class="content-about" id="ibmz">
+            <img src="/images/ibm z ambassador.jpg">
+            <div class="text">
+                <!-- <h1>About Us</h1>-->
+                <p><q>We feel glad to share that our CSE Student, Komal Mann has
+                    been selected as the #1 IBM Z Ambassador
+                    Of The Year 2021.
+                    <br>
+                    <br>
+                    Ms Mann's has been persistent with outstanding efforts at the IBM Z Ambassador Program and also
+                    represented the entire APAC region as a CU Student at IBM Z’s annual tech conference — IBM Z Day
+                    2021.
+                    Also, with the constant support and guidance from the CU Faculty, Ms Mann also established
+                    zStudents-CU, the world’s first-ever student community powered by IBM Z, with the motive to
+                    accelerate the development of technical & soft skills and more importantly, to make learning
+                    opportunities more accessible to students.
+                    Her efforts also earned her recognition as 'IBM Z Rising Star' by TechChannel' by TechChannel.
+                    <br>
+                    <br>
+                    We congratulate Ms Komal Mann on her achievement.</q>
+                </p>
+                <h4 style="color:white;"> ~ Chandigarh University</h4>
+            </div>
+        </div>
+    </section>
+    <!-- Event Photos -->
+    <section class="event-gallery">
+        <div class="event-heading">
+            <h1>Our Events</h1>
+
+        </div>
+        <div class="row">
+            <img src="/eventGallery/3rd.jpg"><img src="/eventGallery/4th.png"><img src="/eventGallery/5th.png">
+        </div>
+        <div class="row">
+            <img src="/eventGallery/1st.jpeg"><img src="/eventGallery/2nd.jpg"><img src="/eventGallery/6th.png">
+        </div>
+        <a href="gallery.html" class="show-more">
+            <div>Show More</div>
+        </a>
+    </section>
+    <!-- About Us -->
+    <section class="about" id="about-us" >
+        <div class="content-about" >
+            <img src="/images/zStudents-CU Main Logo.png">
+            <div class="text">
+                <h1>About Us</h1>
+                <h4>World's First Ever Community Powered By IBM Z</h4>
+                <p>With a mission to accelerate the development of both technical & interpersonal skills in students,
+                    zStudents-CU is entirely with students, for students, and by students! The community focuses on
+                    enabling students to better discover what the future of work needs by connecting them to Industry
+                    Experts through virtually hosted sessions. With support from IBM, the zStudents-CU Team strives to
+                    bring valuable content to life, and make it accessible to proactive learners around the world via
+                    IBM Z Global Student Hub.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel 1-->
+    <section>
+        <div class="carousel">
+            <img src="/images/car1.jpg">
+        </div>
+    </section>
+    <!-- contact us and copyright -->
+    <footer>
+        <section class="contact" id="contactus">
+            <h3>Contact Us</h3>
+            <div class="social">
+                <div><a href="https://www.linkedin.com/company/zstudentscu/mycompany/" target="_blank"><img
+                            src="/images/linkedin.png" alt=""></a></div>
+                <div><a href="https://www.instagram.com/zstudents_cu/" target="_blank"><img src="/images/instagram.png"
+                            alt=""></a>
+                </div>
+                <div><a href="https://twitter.com/zStudentsCU" target="_blank"><img src="/images/twitter.png"
+                            alt=""></a></div>
+                <div><a href="https://www.youtube.com/channel/UCx8513UOHQ6KymTQnqHtC6w" target="_blank"><img
+                            src="/images/youtube.jpg" alt=""></a></div>
+            </div>
+        </section>
+        <div class="copyright">
+            zStudents-CU, All Rights Reserved &copy;
+        </div>
+    </footer>
+    <script>
+        let link = document.getElementsByClassName('nav-bar-link');
+        console.log(link)
+        let icon = document.getElementById('ul-ham');
+        console.log(icon)
+
+        Array.from(link).forEach(link => {
+            link.addEventListener('click', (e) => {
+                icon.classList.remove('show')
+                console.log('Link Is working')
+            })
+        })
+    </script>
+</body>
+
+</html>

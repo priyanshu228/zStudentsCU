@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Spartan:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.event-list{
+    margin-top: 90px;
+}
+.event-list h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 50px;
+    color:white
+}
+.event-title h3{
+    display: inline;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+}
+
+.event-title span{
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+   
+}
+.event-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    font-size: 20px;
+    width:1000px;
+    margin: 0 auto;
+    background-color:rgba(255,249,226,1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.event-button{
+    width:120px;
+    text-align:center;
+    margin:auto 0;
+    padding:10px;
+    border-radius: 20px;
+    background-color:rgba(67,134,246,1);
+}
+.event-button a{
+    text-decoration: none;
+    color:white
+}
+.event-button:hover{
+    background-color: red;
+
+}
+.event-list{
+    padding:70px 0;
+    background-image: linear-gradient(rgba(67,134,246,1),black);
+}
+
+/* Media Query for Event List */
+
+ @media screen and (max-width:1100px) {
+    .event-row{
+    width:700px;
+    }
+     .event-list h3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .event-title span{
+font-size: 20px;
+    }
+    .event-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .event-row{
+    width:600px; 
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    }
+     .event-list h3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .event-title span{
+font-size: 20px;
+    }
+    .event-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+@media screen and (max-width:620px) {
+    .event-row{
+    width:350px; 
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+     .event-list h3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .event-title span{
+font-size: 20px;
+    }
+    .event-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    .event-row{
+        padding:5px;
+  margin-bottom: 20px;
+    }
+    .event-button{
+        padding:5px;
+
+    }
+}

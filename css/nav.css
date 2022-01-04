@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Copyright and contact Css Start */
+.copyright{
+    text-align: center;
+    letter-spacing: 1px;
+    width:100%;
+    height:3vh;
+    background-color: black;
+    color:white;
+}
+ .contact{
+    width:100%;
+    height:150px;
+    background-image: url('/images/background-about.jpg');
+    box-sizing: border-box;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    }
+    .social>div{
+        margin: 0 20px;
+    }
+.contact a img{
+    border-radius: 50%;
+    width:50px;
+
+    }
+    .contact a img:hover{
+        transform: scale(1.3);
+    }
+    .contact h3{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding-top:0.3em;
+        font-size: 2.5em;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        box-sizing: border-box;
+    } 
+
+    /* contact us and copyright ends */
+
+    /* nav css starts */
+nav{
+    width:100%;
+    height:90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding:0 20px;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo h2{
+    font-size: 38px;
+    font-family: 'Luxurious Roman', cursive;
+}
+.logo img{
+    width:80px;
+    margin-right: 20px;
+}
+.logo-comp img{
+    width:150px;
+    padding: 0 8px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+
+}
+.logo-comp{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li{
+    margin:0 5px;
+}
+nav ul li a{
+    color:grey;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding:8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    background: #a3d6e9;
+    color:rgb(0, 0, 0);
+}nav #icon{
+    font-size:20px;
+    line-height:90px;
+    float:right;
+    margin-right:20px;
+    cursor:pointer;
+    display:none;
+}
+/* Nav css ends */
+/* Media Query Starts */
+@media (max-width:1048px){
+    nav #icon{
+        display:block;
+    }
+        nav ul{
+            position:fixed;
+            top:90px;
+            left:-100%;
+            background: rgba(0, 0, 0, 0.952);
+            height:100vh;
+            width:100%; 
+            display:flex;
+            flex-direction: column; 
+            text-align: center;
+            transition: all 0.5s;
+            
+        }
+        nav ul li{
+            margin:30px 0;
+        }
+        nav ul li a {
+            font-size: 25px;
+            color:white;
+        }
+        nav ul li a:hover,
+    nav ul li a.active{
+        background: none;
+        color:cyan;
+    }
+    .nav-bar ul.show{
+        left:0;
+    }
+        .logo-comp{
+            display: none;
+        }
+    }
+    @media (max-width:842px){
+        .logo h2{
+            font-size: 30px;
+        }
+    
+    }
+    @media (max-width:718px){
+
+        .logo img{
+            width:60px
+        }
+
+    }
